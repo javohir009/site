@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://banana.by/uploads/posts/2012-11/1353662380_17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    text-align: center;
+    border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 550px;
+    margin-top: 250px;
+    backdrop-filter: blur(4px);
+}
+.title{
+    color: rgb(19, 177, 74);
+    font-size: 40px;
+}
+.choose{
+    margin-top: 50px;
+    background-color: aqua;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 50px;
+    border: 2px solid aqua;
+}
+.choose:active{
+    border: 2px solid aqua;
+    outline: none;
+}
+.submit__btn{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(44, 200, 44);
+    border: 2px solid rgb(44, 200,44);
+    color: white;
+}
